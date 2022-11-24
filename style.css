@@ -2,13 +2,22 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+/* styling */
+
+body {
     font-family: 'Overpass', sans-serif;
     font-size: 15px; 
     background-color: hsl(216, 12%, 8%);
     color: white;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+img {
+    max-width: 17px;
+}
 
 h1 {
     font-size: 1.5rem;
@@ -21,13 +30,43 @@ p {
 button {
     color: hsl(217, 12%, 63%);
     background-color: hsl(213, 19%, 18%);
+    padding: 10px;
+    border: none;
+    border-radius: 50%;
 }
 
-.submit {
+button:hover {
+    color: white;
     background-color: hsl(25, 97%, 53%);
 }
 
+/* button:focus-within {
+    background-color: hsl(217, 12%, 63%);
+} */
 
+.submit {
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    border: none;
+    border-radius: 20px;
+}
+
+.submit:hover {
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+}
+
+/* start of layout */
+.rating-container {
+    margin: 100px auto;
+    padding: 20px;
+    max-width: 300px;
+    border: .1rem solid white;  /*temp*/
+    border-radius: 20px;
+    background-color: hsl(213, 19%, 18%);
+    display: flex;
+    flex-direction: column;
+}
 
 
 /* provided by project */
