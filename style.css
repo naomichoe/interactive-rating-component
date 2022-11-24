@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Overpass', sans-serif;
+    font-size: 15px; 
+    background-color: hsl(216, 12%, 8%);
+    color: white;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+h1 {
+    font-size: 1.5rem;
+}
+
+p {
+    color: hsl(217, 12%, 63%);
+}
+
+button {
+    color: hsl(217, 12%, 63%);
+    background-color: hsl(213, 19%, 18%);
+}
+
+.submit {
+    background-color: hsl(25, 97%, 53%);
+}
+
+
+
+
+/* provided by project */
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+    text-decoration: none;
+}
