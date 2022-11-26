@@ -1,10 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
 
 /* styling */
 
@@ -21,10 +21,13 @@ img {
 
 h1 {
     font-size: 1.5rem;
+    font-weight: 700;
 }
 
 p {
     color: hsl(217, 12%, 63%);
+    line-height: 1.3rem;
+    font-weight: 400;
 }
 
 button {
@@ -32,8 +35,8 @@ button {
     background-color: hsl(213, 19%, 18%);
     padding: 10px;
     border: none;
-    width: 35px;
-    height: 35px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
 }
 
@@ -42,13 +45,15 @@ button:hover {
     background-color: hsl(25, 97%, 53%);
 }
 
-/* button:focus-within {
+/* button:active {
     background-color: hsl(217, 12%, 63%);
 } */
 
 .submit {
     background-color: hsl(25, 97%, 53%);
     color: white;
+    font-family: inherit;
+    letter-spacing: .2rem;
     border: none;
     border-radius: 20px;
     padding: 10px 0;
@@ -59,17 +64,27 @@ button:hover {
     color: hsl(25, 97%, 53%);
 }
 
-/* start of layout */
+/* layout changes */
+.img-container {
+    background-color: hsl(213, 19%, 18%);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .rating-container {
-    margin: 100px auto;
+    margin: 130px auto;
     padding: 25px;
-    max-width: 300px;
-    border: .1rem solid white;  /*temporary*/
+    max-width: 350px;
+    border: .1rem;  /*temporary*/
     border-radius: 20px;
-    background: linear-gradient(hsl(213, 19%, 18%), hsl(216, 12%, 8%));;
+    background: linear-gradient(hsl(215, 15%, 16%), hsl(214, 13%, 11%));;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 30px;
 }
 
 .rating-btns {
@@ -83,6 +98,6 @@ button:hover {
     font-size: 11px; text-align: center; 
 }
 .attribution a { 
-    color: hsl(228, 45%, 44%); 
+    color: hsl(228, 35%, 57%); 
     text-decoration: none;
 }
