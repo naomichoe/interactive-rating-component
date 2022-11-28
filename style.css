@@ -9,14 +9,18 @@
 /* styling */
 
 body {
-    font-family: 'Overpass', sans-serif;
+    font-family: "Overpass", sans-serif;
     font-size: 15px; 
     background-color: hsl(216, 12%, 8%);
     color: white;
 }
 
-img {
+img .star {
     max-width: 17px;
+}
+
+img.thankyou {
+    max-width: 160px;
 }
 
 h1 {
@@ -42,7 +46,7 @@ button {
 
 button:hover {
     color: white;
-    background-color: hsl(25, 97%, 53%);
+    background-color: hsl(216, 12%, 54%);
 }
 
 /* button:active {
@@ -77,9 +81,8 @@ button:hover {
 
 .rating-container {
     margin: 130px auto;
-    padding: 25px;
+    padding: 30px;
     max-width: 350px;
-    border: .1rem;  /*temporary*/
     border-radius: 20px;
     background: linear-gradient(hsl(215, 15%, 16%), hsl(214, 13%, 11%));;
     display: flex;
@@ -90,6 +93,28 @@ button:hover {
 .rating-btns {
     display: flex;
     justify-content: space-between;
+}
+
+.btn:focus {
+    background-color: hsl(25, 97%, 53%);
+    color: #fff;
+}
+
+.thankyou-container {
+    text-align: center;
+    margin: 130px auto;
+    padding: 30px;
+    max-width: 350px;
+    border-radius: 20px;
+    background: linear-gradient(hsl(215, 15%, 16%), hsl(214, 13%, 11%));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+.thankyou-container.hidden {
+    display: none;
 }
 
 
