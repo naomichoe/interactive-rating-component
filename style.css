@@ -49,10 +49,6 @@ button:hover {
     background-color: hsl(216, 12%, 54%);
 }
 
-/* button:active {
-    background-color: hsl(217, 12%, 63%);
-} */
-
 .submit {
     background-color: hsl(25, 97%, 53%);
     color: white;
@@ -67,6 +63,10 @@ button:hover {
     background-color: white;
     color: hsl(25, 97%, 53%);
 }
+/* 
+.submitted-rating {
+
+} */
 
 /* layout changes */
 .img-container {
