@@ -47,6 +47,7 @@ button {
 button:hover {
     color: white;
     background-color: hsl(216, 12%, 54%);
+    cursor: pointer;
 }
 
 .submit {
@@ -62,6 +63,7 @@ button:hover {
 .submit:hover {
     background-color: white;
     color: hsl(25, 97%, 53%);
+    cursor: pointer;
 }
 
 .submitted-rating {
